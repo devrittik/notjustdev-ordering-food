@@ -1,4 +1,12 @@
-const products = [
+
+interface Product {
+  id: number;
+  name: string;
+  image: string;
+  price: number;
+}
+
+const products : Product[] = [
   {
     id: 1,
     name: 'Ultimate Pepperoni',
@@ -71,4 +79,4 @@ const products = [
   },
 ];
 
-export default products;
+export {products, Product};
