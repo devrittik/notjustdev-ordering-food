@@ -1,10 +1,5 @@
+import { Product } from "@/src/types";
 
-interface Product {
-  id: number;
-  name: string;
-  image: string;
-  price: number;
-}
 
 const products : Product[] = [
   {
